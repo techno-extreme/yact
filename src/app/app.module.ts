@@ -9,7 +9,11 @@ import { HomeComponent } from '../components/home/home.component';
 import { OurTeamComponent } from '../components/our-team/our-team.component';
 import { RouterModule, ActivatedRoute } from '@angular/router';
 import { BlogComponent } from '../components/blog/blog.component';
-
+import { FqaComponent } from '../components/fqa/fqa.component';
+import { AccordionModule } from 'primeng/primeng';
+import { PanelModule } from 'primeng/primeng';
+import { ButtonModule } from 'primeng/primeng';
+import { RadioButtonModule } from 'primeng/primeng';
 
 @NgModule({
   declarations: [
@@ -20,16 +24,22 @@ import { BlogComponent } from '../components/blog/blog.component';
     HomeComponent,
     OurTeamComponent,
     BlogComponent,
+    FqaComponent,
   ],
   imports: [
     BrowserModule,
+    AccordionModule,
+    PanelModule,
+    ButtonModule,
+    RadioButtonModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'about-us', component: AboutUsComponent },
       { path: 'blog', component: BlogComponent },
       { path: 'gallery', component: GalleryComponent },
       { path: 'contact', component: ContactComponent },
-      { path: 'our-team', component: OurTeamComponent }
+      { path: 'our-team', component: OurTeamComponent },
+      { path: 'frequently-asked-questions', component: FqaComponent }
     ])
   ],
   providers: [],
