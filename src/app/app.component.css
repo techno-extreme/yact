@@ -255,3 +255,14 @@ section .section-title {
     margin-bottom: 10px;
 }
 }
+body{
+  background-image: url('../assets/images/hivaids.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+
+}
