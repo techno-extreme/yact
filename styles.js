@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* body{\n    background-image: url('assets/images/hivaids.jpg') ;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n    -webkit-background-size: cover;\n    -moz-background-size: cover;\n    -o-background-size: cover;\n    height:200%;\n\n} */"
+module.exports = "/* body{\n    background-image: url('yact/assets/images/hivaids.jpg') ;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n    -webkit-background-size: cover;\n    -moz-background-size: cover;\n    -o-background-size: cover;\n    height:200%;\n\n} */"
 
 /***/ }),
 
