@@ -1,4 +1,4 @@
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/* @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #cssmenu ul,
 #cssmenu li,
 #cssmenu span,
@@ -179,7 +179,7 @@ margin-left: 50em!important;
 #cssmenu .has-sub ul li:last-child > a,
 #cssmenu .has-sub ul li.last > a {
   border-bottom: 0;
-}
+} */
 
 /* Footer */
 section {
@@ -265,4 +265,7 @@ body{
   -o-background-size: cover;
   height:100%;
 
+}
+.navbar-nav{
+  margin-left: 74em;
 }
